@@ -1,1 +1,0 @@
-# Trabalho-Traduzindo-CPC-Para-LN
