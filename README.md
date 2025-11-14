@@ -97,7 +97,7 @@ Traduções literais podem gerar ambiguidades.
 
 Dependência do usuário para confirmar átomos.
 
-Possíveis evoluções
+### Possíveis evoluções
 
 Adição de modelos de linguagem para aprimorar a compreensão textual.
 
