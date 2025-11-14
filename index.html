@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>LINGUAGEM NATURAL <-> CPC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Tradutor CPC <-> Linguagem Natural</h1>
+
+    <div class="main-content">
+      <div class="card large">
+        <label for="enunciado"><strong>Enunciado (PT-BR)</strong></label>
+        <textarea id="enunciado" rows="6" placeholder="Digite uma frase em linguagem natural (ex.: Se chover, vou levar o guarda-chuva)."></textarea>
+
+        <div class="row" style="margin-top:12px;">
+          <button id="gerarCPC">Gerar CPC</button>
+          <button id="limparEnunciado">Limpar</button>
+          <button id="copiarEnunciado">Copiar enunciado</button>
+        </div>
+
+        <div style="margin-top:16px;">
+          <label><strong>Fórmula CPC</strong></label>
+          <input id="formulaCPC" type="text" placeholder="A fórmula aparecerá aqui (ex.: A → B)" />
+          <div style="margin-top:8px;" class="row">
+            <button id="copiarFormula">Copiar fórmula</button>
+            <button id="gerarEnunciado">Gerar em PT-BR</button>
+          </div>
+        </div>
+
+        <div style="margin-top:16px;">
+          <label><strong>Definir átomos para tradução</strong></label>
+          <div class="small muted">Digite o significado de cada letra (ex: A=está chovendo, B=vou levar guarda-chuva)</div>
+          <textarea id="mapaCustom" rows="3" placeholder="Formato: A=está chovendo&#10;B=vou levar guarda-chuva&#10;C=a rua está molhada" style="margin-top:8px; font-family: monospace;"></textarea>
+          <button id="aplicarMapa" style="margin-top:8px;">Aplicar mapa</button>
+        </div>
+
+        <div style="margin-top:20px;">
+          <label><strong>Operadores Disponíveis</strong></label>
+          <div id="operatorsContainer" style="display:grid; grid-template-columns: 1fr 1fr; gap:10px; margin-top:10px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="confirmModalContainer"></div>
+  <script src="script.js"></script>
+</body>
+</html>
