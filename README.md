@@ -117,16 +117,10 @@ Link para o vídeo:
 
 O agente pode ser testado diretamente via GitHub Pages:
 
-GitHub Pages:
+GitHub Pages: https://filipesilva10.github.io/Trabalho-Traduzindo-CPC-Para-LN/
 
 ## Autores
 
 Filipe Silva Rodrigues — Ciência da Computação
 
 Victor Hugo De Paula Malta — Ciência da Computação
-
-Disciplina: Lógica para Computação
-
-Instituição: Uni-FACEF
-
-Ano: 2025
