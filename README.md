@@ -107,19 +107,13 @@ Implementação de geração automática de tabelas-verdade.
 
 Exportação em PDF ou LaTeX para aplicações acadêmicas.
 
-## 5. Demonstração em Vídeo
-
-Um vídeo demonstra o funcionamento do agente, desde a tradução até o uso do dicionário de proposições.
-
-Link para o vídeo:
-
-## 6. Aplicação Online
+## 5. Aplicação Online
 
 O agente pode ser testado diretamente via GitHub Pages:
 
 GitHub Pages: https://filipesilva10.github.io/Trabalho-Traduzindo-CPC-Para-LN/
 
-## Autores
+## 6. Autores
 
 Filipe Silva Rodrigues — Ciência da Computação
 
